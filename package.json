@@ -2,7 +2,7 @@
   "name": "postrequest",
   "version": "1.0.0",
   "description": "cat",
-  "main": "Art/home.js",
+  "main": "rrchat/server.js",
   "engines": {
     "node": "12.16.x"
   },
@@ -13,7 +13,7 @@
     "cloudinary": "^1.21.0",
     "connect-flash": "^0.1.1",
     "crypto": "^1.0.1",
-    "ejs": "^1.0.0",
+    "ejs": "^2.5.5",
     "express": "^4.17.1",
     "express-sanitizer": "^1.0.5",
     "express-session": "^1.17.1",
@@ -40,7 +40,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "Art/home.js"
+    "start": "rrchat/server.js"
   },
   "author": "me",
   "license": "ISC"
