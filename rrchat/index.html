@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RR chat app</title>
+    <link rel="stylesheet" href="./rrchat/style.css">
+</head>
+
+<body>
+    <section class="chat__section">
+        <div class="brand">
+            <img height="40" src="./rrchat/wassup.png" alt="">
+            <h1>Welcome!! Let's Chat</h1>
+        </div>
+        <div class="message__area"></div>
+        <div class="send">
+            <form action="#" id="send-container">
+                <input type="text" name="messageinp" id="messageinp" placeholder="Write Your Message Here....">
+                <button class="btn" type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./rrchat/client.js"></script>
+</body>
+
+</html>
